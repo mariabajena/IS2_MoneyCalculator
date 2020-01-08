@@ -1,4 +1,4 @@
-package moneycalculator;
+package moneycalculator.model;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ public class CurrencyList {
 
     public CurrencyList() {
         add(new Currency("USD","Dolar americano","$"));
-        add(new Currency("EUR","Euro","€")); 
+        add(new Currency("EUR","Euro","€"));        
         add(new Currency("GBP","Libra","£"));        
     }
 
